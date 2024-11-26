@@ -42,7 +42,7 @@ public class SimpleCalculatorTest {
     public void multiplyTest(){
         SimpleCalculator calculator = new SimpleCalculator();
 
-        int rs = calculator.multyply(30, 50);
+        int rs = calculator.multiply(30, 50);
 
         assertEquals(rs, 1500);
     }
